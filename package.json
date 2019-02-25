@@ -1,7 +1,7 @@
 {
   "name": "odachi",
   "version": "1.0.1",
-  "description": "Radix Trie based Server navigator",
+  "description": "Compressed Trie based Server navigator",
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/app.js",
