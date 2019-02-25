@@ -1,0 +1,49 @@
+{
+  "name": "odachi",
+  "version": "1.0.1",
+  "description": "Radix Trie based Server navigator",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "build": "run-s clean compile",
+    "clean": "trash dist",
+    "dev-compile": "tsc -w",
+    "dev-monitor": "nodemon dist/example.js",
+    "watch": "concurrently \"npm:dev-*\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madtitanjs/odachi.git"
+  },
+  "keywords": [
+    "nodejs",
+    "routing",
+    "http",
+    "https"
+  ],
+  "author": "Daryl Clarino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madtitanjs/odachi/issues"
+  },
+  "homepage": "https://github.com/madtitanjs/odachi#readme",
+  "devDependencies": {
+    "@types/debug": "^4.1.2",
+    "@types/node": "^11.9.4",
+    "benchmark": "^2.1.4",
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.10",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^2.6.3",
+    "trash-cli": "^1.4.0",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.3.3333",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "find-my-way": "^2.0.1"
+  }
+}
