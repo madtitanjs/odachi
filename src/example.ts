@@ -4,7 +4,6 @@ process.env.DEBUG_SHOW_HIDDEN = 'true';
 process.env.DEBUG_DEPTH = 'true';
 process.env.DEBUG = '*';
 import { Router } from "./router/router";
-import debug = require('debug');
 import { createServer } from 'http';
 import { paths } from "./mock/paths";
 const router = new Router();

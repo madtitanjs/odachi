@@ -1,4 +1,4 @@
-import debug = require('debug');
+import * as debug from 'debug';
 const troubleshoot = debug('odachi:helpers:url');
 export module url {
     

@@ -11,8 +11,7 @@ import {
     RouterConfiguration 
 } from '../';
 
-import debug = require('debug');
-import assert = require("assert");
+import * as debug from 'debug';
 import { Method } from "../constants";
 const troubleshoot = debug('odachi:router');
 
